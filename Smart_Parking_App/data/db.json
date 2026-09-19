@@ -1,0 +1,503 @@
+{
+  "users": {
+    "demo@smartparking.ai": {
+      "name": "Demo User",
+      "password": "7dbb7f051b44d7d54584a7bc6c32f00da5a3b5e6973485b9fb176fe56346b3e3",
+      "role": "user",
+      "phone": "9000000000",
+      "vehicle": "AP 16 AB 1234",
+      "created_at": "2026-07-27T20:11:49.496634"
+    },
+    "admin@smartparking.ai": {
+      "name": "Platform Admin",
+      "password": "5ce41ada64f1e8ffb0acfaafa622b141438f3a5777785e7f0b830fb73e40d3d6",
+      "role": "admin",
+      "phone": "9000000000",
+      "vehicle": "AP 16 AB 1234",
+      "created_at": "2026-07-27T20:11:49.496660"
+    },
+    "owner@smartparking.ai": {
+      "name": "Lot Owner",
+      "password": "8ad61c1aa641d727e75f73c09d9b62e924ceef76f028a7c1f1e48dbac0ccae6a",
+      "role": "owner",
+      "phone": "9000000000",
+      "vehicle": "AP 16 AB 1234",
+      "created_at": "2026-07-27T20:11:49.496666"
+    },
+    "vamsipod@gmail.com": {
+      "name": "Sai",
+      "password": "832e69b6e031943bb7b4ee4472b0d371e9801c5348bc7bbd55b6cb77aa8f6f11",
+      "role": "user",
+      "phone": "9876543210",
+      "vehicle": "AP 16 AB 9999",
+      "created_at": "2026-07-27T20:11:49.498026"
+    },
+    "vamsi@gmail.com": {
+      "name": "Vamsi (Google)",
+      "password": "832e69b6e031943bb7b4ee4472b0d371e9801c5348bc7bbd55b6cb77aa8f6f11",
+      "role": "user",
+      "phone": "9876543210",
+      "vehicle": "AP 16 AB 9999",
+      "created_at": "2026-07-27T20:39:28.191840"
+    },
+    "sai@gmail": {
+      "name": "Sai (Google)",
+      "password": "832e69b6e031943bb7b4ee4472b0d371e9801c5348bc7bbd55b6cb77aa8f6f11",
+      "role": "user",
+      "phone": "9876543210",
+      "vehicle": "AP 16 AB 9999",
+      "created_at": "2026-07-27T21:40:30.240379"
+    },
+    "sai": {
+      "name": "Sai (Google)",
+      "password": "832e69b6e031943bb7b4ee4472b0d371e9801c5348bc7bbd55b6cb77aa8f6f11",
+      "role": "user",
+      "phone": "9876543210",
+      "vehicle": "AP 16 AB 9999",
+      "created_at": "2026-07-27T22:13:14.992606"
+    },
+    "vallurujanaka@gmail.com": {
+      "name": "Vallurujanaka (Google)",
+      "password": "832e69b6e031943bb7b4ee4472b0d371e9801c5348bc7bbd55b6cb77aa8f6f11",
+      "role": "user",
+      "phone": "9876543210",
+      "vehicle": "AP 16 AB 9999",
+      "created_at": "2026-07-28T19:44:07.678663"
+    },
+    "gtejists20@gmail.com": {
+      "name": "Tejaswini",
+      "password": "8715f4fb7792a128e99330819962b18eea1b6ef305e2f3e4223d745d28a18896",
+      "role": "user",
+      "phone": "9059306062",
+      "vehicle": "",
+      "created_at": "2026-07-29T19:04:29.644973"
+    },
+    "mnideep@gamil.com": {
+      "name": "Manideep",
+      "password": "32a304062cf9528047442418ebb616c89017592f2995807e1dc9fd6f37f6f42a",
+      "role": "owner",
+      "phone": "7896547652",
+      "vehicle": "",
+      "created_at": "2026-07-30T19:08:42.108831"
+    },
+    "mnideep@gmail.com": {
+      "name": "Manideep",
+      "password": "32a304062cf9528047442418ebb616c89017592f2995807e1dc9fd6f37f6f42a",
+      "role": "owner",
+      "phone": "7896547652",
+      "vehicle": "",
+      "created_at": "2026-07-30T19:09:47.354800"
+    }
+  },
+  "lots": [
+    {
+      "id": "lot_pvp001",
+      "name": "PVP Square Mall Parking",
+      "address": "MG Road, Labbipet, Vijayawada, AP 520010",
+      "lat": 16.5062,
+      "lng": 80.648,
+      "capacity": 220,
+      "price_per_hour": 30,
+      "rating": 4.5,
+      "zone": "Zone A",
+      "spot_size": "Standard",
+      "vehicle_type": "Car",
+      "user_type": "Visitor",
+      "availability_bias": 0.55,
+      "amenities": [
+        "CCTV",
+        "EV Charging",
+        "Covered",
+        "Security Guard"
+      ],
+      "owner_email": "owner@parkopedia.ai",
+      "image": "https://images.unsplash.com/photo-1590674899484-13da0d6d4c07?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "lot_rail002",
+      "name": "Vijayawada Railway Station Parking",
+      "address": "Station Rd, Vijayawada, AP 520003",
+      "lat": 16.5175,
+      "lng": 80.6205,
+      "capacity": 300,
+      "price_per_hour": 20,
+      "rating": 4.1,
+      "zone": "Zone B",
+      "spot_size": "Compact",
+      "vehicle_type": "Car",
+      "user_type": "Visitor",
+      "availability_bias": 0.35,
+      "amenities": [
+        "CCTV",
+        "24x7 Open",
+        "Two-Wheeler Bay"
+      ],
+      "owner_email": "owner@parkopedia.ai",
+      "image": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "lot_benz003",
+      "name": "Benz Circle Business Park",
+      "address": "Benz Circle, Vijayawada, AP 520010",
+      "lat": 16.5008,
+      "lng": 80.6572,
+      "capacity": 150,
+      "price_per_hour": 40,
+      "rating": 4.7,
+      "zone": "Zone C",
+      "spot_size": "Oversized",
+      "vehicle_type": "Car",
+      "user_type": "Staff",
+      "availability_bias": 0.6,
+      "amenities": [
+        "EV Charging",
+        "Valet",
+        "Covered",
+        "CCTV"
+      ],
+      "owner_email": "owner@parkopedia.ai",
+      "image": "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "lot_gunadala004",
+      "name": "Gunadala Church Street Parking",
+      "address": "Gunadala, Vijayawada, AP 520004",
+      "lat": 16.5289,
+      "lng": 80.6396,
+      "capacity": 90,
+      "price_per_hour": 15,
+      "rating": 3.9,
+      "zone": "Zone D",
+      "spot_size": "Standard",
+      "vehicle_type": "Motorcycle",
+      "user_type": "Visitor",
+      "availability_bias": 0.45,
+      "amenities": [
+        "Open Air",
+        "Two-Wheeler Bay"
+      ],
+      "owner_email": "owner2@parkopedia.ai",
+      "image": "https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "lot_airport005",
+      "name": "Vijayawada Airport Long-Stay Lot",
+      "address": "Gannavaram, Vijayawada, AP 521101",
+      "lat": 16.5304,
+      "lng": 80.7967,
+      "capacity": 400,
+      "price_per_hour": 25,
+      "rating": 4.4,
+      "zone": "Zone A",
+      "spot_size": "Standard",
+      "vehicle_type": "Car",
+      "user_type": "Visitor",
+      "availability_bias": 0.5,
+      "amenities": [
+        "CCTV",
+        "Shuttle Service",
+        "Covered",
+        "EV Charging"
+      ],
+      "owner_email": "owner2@parkopedia.ai",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "lot_governorpet006",
+      "name": "Governorpet Market Parking",
+      "address": "Governorpet, Vijayawada, AP 520002",
+      "lat": 16.5138,
+      "lng": 80.6167,
+      "capacity": 120,
+      "price_per_hour": 18,
+      "rating": 3.7,
+      "zone": "Zone B",
+      "spot_size": "Compact",
+      "vehicle_type": "Truck",
+      "user_type": "Visitor",
+      "availability_bias": 0.3,
+      "amenities": [
+        "Open Air",
+        "Loading Bay"
+      ],
+      "owner_email": "owner@parkopedia.ai",
+      "image": "https://images.unsplash.com/photo-1573348721996-4e0f97fdd53f?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK28887090",
+      "user_email": "vamsipod@gmail.com",
+      "lot_id": "lot_pvp001",
+      "created_at": "2026-07-27T20:12:55.398667",
+      "status": "Confirmed",
+      "lot_name": "PVP Square Mall Parking",
+      "slot_time": "2026-07-27 20:42",
+      "duration_hrs": 2,
+      "vehicle_number": "AP 16 AB 9999",
+      "vehicle_type": "Car",
+      "amount": 60,
+      "razorpay_order_id": "order_6c118aeb98ea45",
+      "razorpay_payment_id": "pay_7c0fb8c5043840",
+      "payment_method": "UPI"
+    },
+    {
+      "id": "BK22E4DD9D",
+      "user_email": "vallurujanaka@gmail.com",
+      "lot_id": "lot_rail002",
+      "created_at": "2026-07-28T19:48:47.814938",
+      "status": "Confirmed",
+      "lot_name": "Vijayawada Railway Station Parking",
+      "slot_time": "2026-07-28 20:18",
+      "duration_hrs": 2,
+      "vehicle_number": "AP 16 AB 9999",
+      "vehicle_type": "Motorcycle",
+      "amount": 40,
+      "razorpay_order_id": "order_78684d37bd2b41",
+      "razorpay_payment_id": "pay_ea0666ccb8024b",
+      "payment_method": "Card"
+    },
+    {
+      "id": "BKF7CA5AF9",
+      "user_email": "gtejists20@gmail.com",
+      "lot_id": "lot_rail002",
+      "created_at": "2026-07-29T19:23:50.859319",
+      "status": "Confirmed",
+      "lot_name": "Vijayawada Railway Station Parking",
+      "slot_time": "2026-07-29 19:53",
+      "duration_hrs": 2,
+      "vehicle_number": "adfgjh",
+      "vehicle_type": "Electric Vehicle",
+      "amount": 40,
+      "razorpay_order_id": "order_109d4acfd77243",
+      "razorpay_payment_id": "pay_e5e2fe7952e94f",
+      "payment_method": "Card"
+    },
+    {
+      "id": "BK00A3D120",
+      "user_email": "gtejists20@gmail.com",
+      "lot_id": "lot_pvp001",
+      "created_at": "2026-07-30T11:42:42.690233",
+      "status": "Cancelled",
+      "lot_name": "PVP Square Mall Parking",
+      "slot_time": "2026-07-30 12:12",
+      "duration_hrs": 2,
+      "vehicle_number": "AP09875",
+      "vehicle_type": "Truck",
+      "amount": 60,
+      "razorpay_order_id": "order_93ce24bb42de43",
+      "razorpay_payment_id": "pay_a3e9b9e2bd3e41",
+      "payment_method": "UPI"
+    },
+    {
+      "id": "BKC71CA14F",
+      "user_email": "gtejists20@gmail.com",
+      "lot_id": "lot_pvp001",
+      "created_at": "2026-07-30T17:09:09.066430",
+      "status": "Confirmed",
+      "lot_name": "PVP Square Mall Parking",
+      "slot_time": "2026-07-30 17:39",
+      "duration_hrs": 2,
+      "vehicle_number": "233",
+      "vehicle_type": "Car",
+      "amount": 60,
+      "razorpay_order_id": "order_b22726432be046",
+      "razorpay_payment_id": "pay_70b8295e26044e",
+      "payment_method": "UPI"
+    },
+    {
+      "id": "BK77FF823D",
+      "user_email": "gtejists20@gmail.com",
+      "lot_id": "lot_pvp001",
+      "created_at": "2026-07-30T21:50:57.454194",
+      "status": "Confirmed",
+      "lot_name": "PVP Square Mall Parking",
+      "slot_time": "2026-07-30 22:20",
+      "duration_hrs": 2,
+      "vehicle_number": "AP09875",
+      "vehicle_type": "Motorcycle",
+      "amount": 60,
+      "razorpay_order_id": "order_88f47d7464ee4d",
+      "razorpay_payment_id": "pay_03f110ba482c4b",
+      "payment_method": "UPI"
+    }
+  ],
+  "favorites": {
+    "demo@smartparking.ai": [],
+    "admin@smartparking.ai": [],
+    "owner@smartparking.ai": [],
+    "vamsipod@gmail.com": [],
+    "vamsi@gmail.com": [],
+    "sai@gmail": [],
+    "sai": [],
+    "vallurujanaka@gmail.com": [],
+    "gtejists20@gmail.com": [],
+    "mnideep@gamil.com": [],
+    "mnideep@gmail.com": []
+  },
+  "notifications": {
+    "demo@smartparking.ai": [
+      {
+        "message": "Welcome back, Demo User! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-29T19:53:04.351779"
+      }
+    ],
+    "admin@smartparking.ai": [],
+    "owner@smartparking.ai": [],
+    "vamsipod@gmail.com": [
+      {
+        "message": "Booking confirmed at PVP Square Mall Parking for 2026-07-27 20:42 \u2014 \u20b960.00 paid.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T20:12:55.400640"
+      },
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T20:11:49.499450"
+      }
+    ],
+    "vamsi@gmail.com": [
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T20:39:28.193927"
+      }
+    ],
+    "sai@gmail": [
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T21:40:30.240900"
+      }
+    ],
+    "sai": [
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T22:27:19.120732"
+      },
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T22:24:42.457274"
+      },
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T22:19:44.756341"
+      },
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-27T22:13:14.993502"
+      }
+    ],
+    "vallurujanaka@gmail.com": [
+      {
+        "message": "Booking confirmed at Vijayawada Railway Station Parking for 2026-07-28 20:18 \u2014 \u20b940.00 paid.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-28T19:48:47.832862"
+      },
+      {
+        "message": "Welcome! You signed in with your Google Account.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-28T19:44:07.691516"
+      }
+    ],
+    "gtejists20@gmail.com": [
+      {
+        "message": "Booking confirmed at PVP Square Mall Parking for 2026-07-30 22:20 \u2014 \u20b960.00 paid.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-30T21:50:58.131536"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-30T21:48:34.889207"
+      },
+      {
+        "message": "Booking confirmed at PVP Square Mall Parking for 2026-07-30 17:39 \u2014 \u20b960.00 paid.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-30T17:09:09.303921"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-30T17:03:51.731603"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-30T17:01:52.998695"
+      },
+      {
+        "message": "Booking BK00A3D120 cancelled. Refund of \u20b960.00 initiated.",
+        "kind": "warning",
+        "read": false,
+        "time": "2026-07-30T11:43:12.207085"
+      },
+      {
+        "message": "Booking confirmed at PVP Square Mall Parking for 2026-07-30 12:12 \u2014 \u20b960.00 paid.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-30T11:42:42.876366"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-30T11:39:07.512548"
+      },
+      {
+        "message": "Booking confirmed at Vijayawada Railway Station Parking for 2026-07-29 19:53 \u2014 \u20b940.00 paid.",
+        "kind": "success",
+        "read": false,
+        "time": "2026-07-29T19:23:51.300149"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-29T19:20:16.007940"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-29T19:09:57.887758"
+      },
+      {
+        "message": "Welcome back, Tejaswini! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-29T19:04:44.288575"
+      }
+    ],
+    "mnideep@gamil.com": [],
+    "mnideep@gmail.com": [
+      {
+        "message": "Welcome back, Manideep! You signed in successfully.",
+        "kind": "info",
+        "read": false,
+        "time": "2026-07-30T19:10:30.089691"
+      }
+    ]
+  }
+}

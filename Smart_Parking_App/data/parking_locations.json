@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lot_pvp001",
+    "name": "PVP Square Mall Parking",
+    "address": "MG Road, Labbipet, Vijayawada, AP 520010",
+    "lat": 16.5062, "lng": 80.6480,
+    "capacity": 220, "price_per_hour": 30, "rating": 4.5,
+    "zone": "Zone A", "spot_size": "Standard", "vehicle_type": "Car",
+    "user_type": "Visitor", "availability_bias": 0.55,
+    "amenities": ["CCTV", "EV Charging", "Covered", "Security Guard"],
+    "owner_email": "owner@parkopedia.ai",
+    "image": "https://images.unsplash.com/photo-1590674899484-13da0d6d4c07?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "lot_rail002",
+    "name": "Vijayawada Railway Station Parking",
+    "address": "Station Rd, Vijayawada, AP 520003",
+    "lat": 16.5175, "lng": 80.6205,
+    "capacity": 300, "price_per_hour": 20, "rating": 4.1,
+    "zone": "Zone B", "spot_size": "Compact", "vehicle_type": "Car",
+    "user_type": "Visitor", "availability_bias": 0.35,
+    "amenities": ["CCTV", "24x7 Open", "Two-Wheeler Bay"],
+    "owner_email": "owner@parkopedia.ai",
+    "image": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "lot_benz003",
+    "name": "Benz Circle Business Park",
+    "address": "Benz Circle, Vijayawada, AP 520010",
+    "lat": 16.5008, "lng": 80.6572,
+    "capacity": 150, "price_per_hour": 40, "rating": 4.7,
+    "zone": "Zone C", "spot_size": "Oversized", "vehicle_type": "Car",
+    "user_type": "Staff", "availability_bias": 0.6,
+    "amenities": ["EV Charging", "Valet", "Covered", "CCTV"],
+    "owner_email": "owner@parkopedia.ai",
+    "image": "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "lot_gunadala004",
+    "name": "Gunadala Church Street Parking",
+    "address": "Gunadala, Vijayawada, AP 520004",
+    "lat": 16.5289, "lng": 80.6396,
+    "capacity": 90, "price_per_hour": 15, "rating": 3.9,
+    "zone": "Zone D", "spot_size": "Standard", "vehicle_type": "Motorcycle",
+    "user_type": "Visitor", "availability_bias": 0.45,
+    "amenities": ["Open Air", "Two-Wheeler Bay"],
+    "owner_email": "owner2@parkopedia.ai",
+    "image": "https://images.unsplash.com/photo-1621929747188-0b4dc28498d2?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "lot_airport005",
+    "name": "Vijayawada Airport Long-Stay Lot",
+    "address": "Gannavaram, Vijayawada, AP 521101",
+    "lat": 16.5304, "lng": 80.7967,
+    "capacity": 400, "price_per_hour": 25, "rating": 4.4,
+    "zone": "Zone A", "spot_size": "Standard", "vehicle_type": "Car",
+    "user_type": "Visitor", "availability_bias": 0.5,
+    "amenities": ["CCTV", "Shuttle Service", "Covered", "EV Charging"],
+    "owner_email": "owner2@parkopedia.ai",
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "lot_governorpet006",
+    "name": "Governorpet Market Parking",
+    "address": "Governorpet, Vijayawada, AP 520002",
+    "lat": 16.5138, "lng": 80.6167,
+    "capacity": 120, "price_per_hour": 18, "rating": 3.7,
+    "zone": "Zone B", "spot_size": "Compact", "vehicle_type": "Truck",
+    "user_type": "Visitor", "availability_bias": 0.3,
+    "amenities": ["Open Air", "Loading Bay"],
+    "owner_email": "owner@parkopedia.ai",
+    "image": "https://images.unsplash.com/photo-1573348721996-4e0f97fdd53f?q=80&w=600&auto=format&fit=crop"
+  }
+]
