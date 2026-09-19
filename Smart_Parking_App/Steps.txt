@@ -1,0 +1,60 @@
+Smart Parking Application - Deployment and Setup Guide
+======================================================
+
+Follow these step-by-step instructions to set up, initialize, and run the Smart Parking AI-Driven Occupancy Prediction system on your local machine.
+
+Prerequisites
+-------------
+- Python 3.8 or higher installed on your system.
+- Homebrew (recommended for macOS users to install system dependencies).
+
+1. Install System Dependencies
+------------------------------
+For optimal ML predictions, the XGBoost engine requires the OpenMP parallel computing library. If you are on macOS, install it via Homebrew:
+   
+   brew install libomp
+
+   *Note: If libomp is not installed, the application will gracefully fall back to a deterministic prediction preview without crashing.*
+
+2. Navigate to the App Directory
+--------------------------------
+Open your terminal and navigate to the project directory:
+
+   cd smart_parking_app
+
+3. Create and Activate Virtual Environment
+------------------------------------------
+Initialize a virtual environment to manage project packages:
+
+   python3 -m venv venv
+   source venv/bin/activate
+
+4. Install Python Dependencies
+------------------------------
+Install all necessary libraries (Streamlit, Pandas, NumPy, XGBoost, Scikit-learn, etc.):
+
+   pip install -r requirements.txt
+
+5. Config Secrets (Optional)
+-----------------------------
+To run interactive geo-positioned Google Maps, configure your Google Maps API key in `.streamlit/secrets.toml`:
+
+   GOOGLE_MAPS_API_KEY = "YOUR_ACTUAL_API_KEY_HERE"
+
+   *Note: If no API key is specified, the application will automatically fall back to secure embedded Google Maps previews.*
+
+6. Start the Streamlit Server
+-----------------------------
+Launch the Web app on a local port (e.g. 8503):
+
+   streamlit run app.py --server.port 8503
+
+7. Demo Accounts & Credentials
+------------------------------
+Once the app loads, you can use these compliant seeded demo credentials:
+
+   - Driver User:       demo@smartparking.ai  / Password: Demo1234!
+   - Parking Lot Owner: owner@smartparking.ai / Password: Owner1234!
+   - Platform Admin:    admin@smartparking.ai / Password: Admin1234!
+
+   You can also click on the 'Create Account' tab to sign up, or use the 'Google Sign In' tab with your Google API Key.

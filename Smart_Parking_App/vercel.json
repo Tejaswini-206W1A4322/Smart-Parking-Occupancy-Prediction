@@ -1,0 +1,41 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "devCommand": "streamlit run app.py --server.port $PORT --server.address 0.0.0.0",
+  "framework": "python",
+  "installCommand": "pip install -r requirements.txt",
+  "outputDirectory": ".",
+  "projectSettings": {
+    "framework": "python",
+    "pythonVersion": "3.11",
+    "nodeCommand": null
+  },
+  "rewrites": [
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/models/(.*)",
+      "destination": "/models/$1"
+    },
+    {
+      "source": "/data/(.*)",
+      "destination": "/data/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.py"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
