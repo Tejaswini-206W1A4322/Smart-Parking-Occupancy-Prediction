@@ -102,7 +102,7 @@ During this project, I learned the complete Machine Learning development lifecyc
   It required planning, building, optimizing, and documenting a complete real-world project.
 </p>
 <p>
-  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="https://github.com/Tejaswini-206W1A4322/Smart-Parking-Occupancy-Prediction/blob/main/SURE%20Trust%20project%20document%20(1)%20(1).docx<strong>→ View Full Project Report</strong></a>
 </p>
 
 <hr style="height:1px; border-top:1px solid #ccc; width:80%;" />
