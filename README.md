@@ -82,7 +82,7 @@ During this project, I learned the complete Machine Learning development lifecyc
   This project involved designing and developing an AI-Driven Smart Occupancy Prediction System using Machine Learning techniques. The system analyzes parking-related data, including sensor readings, traffic conditions, and temporal factors, to predict parking space occupancy. It provides real-time predictions through an interactive Streamlit web application, supporting smarter parking management and resource utilization.
 </p>
 <p>
-  <a href="https://github.com/sure-trust/TEJASWINI-GALLA-g37-ai-ml/blob/bf1191523619981428f2b01ed977207bee894367/Course%20report/SURE%20Trust%20project%20document%20(1).docx" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="https://github.com/Tejaswini-206W1A4322/Smart-Parking-Occupancy-Prediction/blob/main/SURE%20Trust%20project%20document%20(1)%20(1).pdf"><strong>→ View Full Project Report</strong></a>
 </p>
 
 <!-- Project 2 -->
