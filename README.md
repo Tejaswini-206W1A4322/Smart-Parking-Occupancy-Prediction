@@ -154,7 +154,7 @@ During my internship period, I participated in multiple community-oriented activ
 
 <div align="center">
 <img src="https://github.com/Tejaswini-206W1A4322/Smart-Parking-Occupancy-Prediction/blob/main/community_services/Community_services-1.png">
-<img src="https://www.linkedin.com/feed/update/urn:li:activity:7504538241891479553?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7EX0QBbQIm5bGanNen5XBUPQ1zkfxu6a8">
+<img src="https://github.com/Tejaswini-206W1A4322/Smart-Parking-Occupancy-Prediction/blob/main/community_services/Community_services-2.png">
 <img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/3/1759752731458?e=1766016000&v=beta&t=yWaunKdRdLUKBLbmM3UjRYYz-_GSCfWEQ3_R7dW0xLM" alt="Community Service Photo 3" width="30%](https://www.linkedin.com/feed/update/urn:li:activity:7504538241891479553?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7EX0QBbQIm5bGanNen5XBUPQ1zkfxu6a8)">
 </div>
 
